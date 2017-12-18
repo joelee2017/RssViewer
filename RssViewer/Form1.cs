@@ -48,6 +48,7 @@ namespace RssViewer
 
         /// <summary>
         /// 新聞連結開啟(dataGridView1.Rows[e.RowIndex].Cells[2].Value)
+        /// Rows[e.RowIndex]按下該資料的索引，Cells[2]該資料的連結
         /// webBrowser1.Url = new Uri(link);
         /// 從屬性判段
         /// </summary>
